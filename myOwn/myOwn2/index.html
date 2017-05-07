@@ -1,0 +1,34 @@
+
+	<!DOCTYPE html>
+<html>
+<head>
+	<title>Task Form - Array</title>
+	<meta charset="utf-8">
+	<meta width="device-with">
+	<link href="reset.min.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+</head>
+<body>
+<span id="app">
+<div class="container">
+<h1 v-on:click="fillArea()" v-once>{{ title }}</h1>
+<hr>
+<h2 style="display:inline; margin-right:5px;">Задание:</h2>
+<hr>
+<br>
+	<textarea id="result" v-model="name"> {{title}} {{areaTitle}} </textarea>
+	<br>
+	<br>
+	<p>{{ name }} {{title}} {{areaTitle}} {{sayHello(a,b)}}</p>
+</div>
+
+</span>
+
+</body>
+
+
+
+	<script type="text/javascript" src="vue.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+

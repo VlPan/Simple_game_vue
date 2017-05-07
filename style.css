@@ -1,0 +1,29 @@
+.container{
+    text-align: center;
+
+}
+
+.health{
+    width: 300px;
+    background-color: greenyellow;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 27px;
+}
+
+.start_game{
+    margin-top: 25px;
+    border: 1px solid darkgray;
+    padding: 10px;
+}
+
+.game_tablet{
+    margin-top: 25px;
+    border: 1px solid darkgray;
+    padding: 10px;
+}
+
+.btn{
+    margin-right: 5px;
+}
+
